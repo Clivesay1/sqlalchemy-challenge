@@ -47,7 +47,7 @@ def welcome():
 		f"/api/v1.0/precipitation<br/>"
 		f"/api/v1.0/stations<br/>"
 		f"/api/v1.0/tobs<br/>"
-		f"/api/v1.0/temp/start/end"
+		f"/api/v1.0/temp/start/end<br/>"
 	)
 
 #Create precipitation route
@@ -156,10 +156,3 @@ def stats(start=None, end=None):
 #Run the app
 if __name__ == '__main__':
 	app.run(debug=True)
-
-
-
-
-
-
-
